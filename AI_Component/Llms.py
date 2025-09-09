@@ -8,7 +8,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 if not api_key:
     raise ValueError("API Key tidak ditemukan. Pastikan file .env memiliki OPENAI_API_KEY yang valid.")
 
-groqapi_key = os.getenv('groqapi_key')
+groqapi_key = os.getenv('GROQ_API_KEY')
 if not groqapi_key:
     raise ValueError("Groq API key tidak ditemukan")
 
